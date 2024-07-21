@@ -83,12 +83,14 @@ img {
 }
 
 /** HEADER **/
-.webp .header{
+.webp .header {
     background-image: url(/img/banner.webp);
 }
-.no-webp .header{
+
+.no-webp .header {
     background-image: url(/img/banner.jpg);
 }
+
 .header {
     height: 60rem;
     background-size: cover;
@@ -182,9 +184,11 @@ img {
         display: inline-block;
     }
 }
-.boton:hover{
+
+.boton:hover {
     cursor: pointer;
 }
+
 .boton--primario {
     background-color: var(--negro);
 }
@@ -266,11 +270,13 @@ img {
     width: 95%;
     padding: 2rem 2rem 2rem 0;
 }
+
 @media (min-width: 768px) {
-  .formulario{
-    padding: 4rem;
-  }
+    .formulario {
+        padding: 4rem;
+    }
 }
+
 .campo {
     display: flex;
     margin-bottom: 2rem;
@@ -289,4 +295,14 @@ img {
 
 .campo__field--textarea {
     height: 20rem;
+}
+
+.alinear {
+    margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+    .alinear {
+        width: 100%;
+    }
 }
